@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ header{
+    /*background-image: url(nature.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* message */
+
+/* data-text{
+    font-size: 10vmax;
+
+} */
+
+main{
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+}
+
+/* from and destination */
+
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30rem;
+}
+
+/* platform */
+
+#blue-line{
+    height: 10vmin;
+    width:  25vmin;
+    border-radius: 1rem;
+    background-color: #334195;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+}
+
+#green-line{
+    height: 10vmin;
+    width:  25vmin;
+    border-radius: 1rem;
+    background-color: #08a045;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+#destination{
+    height: 3rem;
+    width:  12rem;
+    border: 3px black solid;
+    background-color:azure;
+    border-radius: 25%;
+}
+
+
+/* station values  */
+
+#station{
+    height: 3rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: thistle;
+    border-radius: 5rem;
+    font-size: large;
+    font-weight: bolder;
+    gap: 1rem;
+}
+
+#enter-key{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-style: inherit;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+#size-button{
+    height: 3rem;
+    width: 9rem;
+    border-radius: 1rem;
+}
+
+
+/* text - animation */
+
+.container {
+    display:inline-block;
+    width: 80vmax;
+
+
+}
+
+.text{
+    font-size: 6vmax;
+    letter-spacing: 10px;
+    color: gray;
+    height: 2vmax;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* border-right: 5px solid; */
+    background-image: url(side-view.jpg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: auto;
+    width: 100%;
+    white-space: nowrap;
+    animation: 
+    typing 2s,
+    cursor .4s step-end infinite alternate;
+    /* text-decoration: solid black; */
+}
+
+@keyframes cursor{
+    50%{ border-color: black;}
+}
+
+
+
+
+@keyframes typing{
+    from {width: 0%;}
+}
+
